@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.container{
+    background-color: #000;
+    width: 800px;
+    max-width: 800px;
+    min-height: 90vw;
+    height: auto;
+    padding: 20px;
+    margin: 30px 10px 20px 10px;
+}
+.img-profile-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.img-profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.my-name{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #f5f0f0;
+    margin-top: 5px;
+}
+.img-profile-box h2{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #f5f0f0;
+    text-align: center;
+}
+
+.link-box{
+    width: 100%;
+    max-width: 790px;
+    height: 70px;
+    border-radius: 10px;
+    background: #83018f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.link-box a{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f5f0f0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.link-box:hover{
+    background: #d111e2;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    color: #353434;
+    text-align: center;
+    margin-top: 50px;
+}
